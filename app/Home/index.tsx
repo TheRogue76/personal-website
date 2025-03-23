@@ -6,7 +6,8 @@ import Footer from './Footer/Footer';
 
 import { PortfolioProvider } from '~/context/context';
 
-import { heroData, projectsData, contactData, footerData } from '~/mock/data';
+import {heroData, projectsData, contactData, footerData, aboutData} from '~/data/data';
+import About from "~/Home/About/About";
 
 export function Home() {
   return (
@@ -15,12 +16,12 @@ export function Home() {
         projects: [...projectsData],
         hero: { ...heroData },
         contact: { ...contactData },
-        // about: { ...aboutData },
+        about: { ...aboutData },
         footer: { ...footerData },
       }}
     >
       <Hero />
-      {/*<About />*/}
+      <About />
       <Projects />
       <Contact />
       <Footer />

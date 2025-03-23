@@ -12,7 +12,7 @@ export interface HeroData {
 }
 
 export interface AboutData {
-  img: string;
+  img: any;
   paragraphOne: string;
   paragraphTwo: string;
   resume: string;
@@ -46,7 +46,7 @@ export interface FooterData {
 
 export interface AppContext {
   hero: HeroData;
-  // about: AboutData;
+  about: AboutData;
   projects: ProjectData[];
   contact: ContactData;
   footer: FooterData;

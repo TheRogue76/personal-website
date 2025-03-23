@@ -46,17 +46,16 @@ const Projects = () => {
                       <h3 className="project-wrapper__text-title">{title || 'Project Title'}</h3>
                       <div>
                         <p>
-                          {info ||
-                            'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi neque, ipsa animi maiores repellendu distinctioaperiam earum dolor voluptatum consequatur blanditiis inventore debitis fuga numquam voluptate architecto itaque molestiae.'}
+                          {info}
                         </p>
-                        <p className="mb-4">{info2 || ''}</p>
+                        <p className="mb-4">{info2}</p>
                       </div>
                       {url && (
                         <a
                           target="_blank"
                           rel="noopener noreferrer"
                           className="cta-btn cta-btn--hero"
-                          href={url || '#!'}
+                          href={url}
                         >
                           See More
                         </a>
@@ -104,7 +103,7 @@ const Projects = () => {
                           }}
                         >
                           <div data-tilt className="thumbnail rounded">
-                            <img alt={'TODO'} src={test} width={100} height={100} />
+                            {/* TODO FIX THIS SHIT */}
                             {/*<ProjectImg alt={title} filename={img} />*/}
                           </div>
                         </Tilt>

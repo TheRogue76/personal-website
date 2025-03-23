@@ -1,3 +1,4 @@
+{/* TODO START USING TAIWIND LIKE AN ADULT */}
 export function Home() {
   return (
     <main className="flex items-center justify-center pt-16 pb-4">

@@ -1,10 +1,10 @@
 import React from 'react';
 import type {AppContext} from '~/interfaces';
-import { contactData, footerData, heroData, projectsData } from '~/mock/data';
+import {aboutData, contactData, footerData, heroData, projectsData} from '~/data/data';
 
 const PortfolioContext = React.createContext<AppContext>({
   contact: { ...contactData },
-  // about: { ...aboutData },
+  about: { ...aboutData },
   footer: { ...footerData },
   hero: { ...heroData },
   projects: [...projectsData],

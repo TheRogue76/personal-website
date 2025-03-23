@@ -7,6 +7,7 @@ import type {
   HeroData,
   ProjectData,
 } from '~/interfaces';
+import ProfilePic from '../resources/optimized/profile.webp'
 
 // HEAD DATA
 export const headData: HeaderData = {
@@ -25,7 +26,7 @@ export const heroData: HeroData = {
 
 // ABOUT DATA
 export const aboutData: AboutData = {
-  img: 'profile.JPG',
+  img: ProfilePic,
   paragraphOne:
     "I'm a Mobile Engineer with a focus on solutions for both iOS and Android. Experience with Swift, SwiftUI, KMP, and React Native. Current maintainer of Lottie React Native. In my free time, i do some volunteer OSS work (Mostly Lottie and React Native itself).",
   paragraphTwo: '',
@@ -36,7 +37,7 @@ export const aboutData: AboutData = {
 export const projectsData: ProjectData[] = [
   {
     id: nanoid(),
-    img: 'mcd.png',
+    img: 'mcd.webp',
     title: 'McDonalds',
     info: 'Umain',
     info2: 'The global McDonalds Mobile application',
@@ -44,7 +45,7 @@ export const projectsData: ProjectData[] = [
   },
   {
     id: nanoid(),
-    img: 'hava.png',
+    img: 'hava.webp',
     title: 'Hava',
     info: 'Hava',
     info2: 'A health app, with a focus on Satiety per calorie and Food detection algorithms',
@@ -52,7 +53,7 @@ export const projectsData: ProjectData[] = [
   },
   {
     id: nanoid(),
-    img: 'dietdoctor.png',
+    img: 'dietdoctor.webp',
     title: 'DietDoctor',
     info: 'DietDoctor',
     info2: 'A Dietary app built for iOS and Android, with a focus on metabolic health.',
