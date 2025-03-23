@@ -18,10 +18,10 @@ export const headData: HeaderData = {
 
 // HERO DATA
 export const heroData: HeroData = {
-  title: '',
+  title: 'Hi, my name is',
   name: 'Parsa Nasirimehr',
   subtitle: "I'm a software engineer",
-  cta: '',
+  cta: 'Know more',
 };
 
 // ABOUT DATA
@@ -98,8 +98,8 @@ export const projectsData: ProjectData[] = [
 
 // CONTACT DATA
 export const contactData: ContactData = {
-  cta: '',
-  btn: '',
+  cta: 'Would you like to work with me? Awesome!',
+  btn: "Let's Talk",
   email: 'p.nasirimehr@gmail.com',
 };
 

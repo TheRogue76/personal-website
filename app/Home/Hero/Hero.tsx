@@ -40,7 +40,7 @@ const Header = () => {
             <p className="hero-cta">
               <span className="cta-btn cta-btn--hero">
                 <Link to="about" duration={1000}>
-                  {cta}
+                  {cta || 'Know more'}
                 </Link>
               </span>
             </p>
